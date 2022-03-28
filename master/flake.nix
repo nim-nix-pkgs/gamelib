@@ -12,7 +12,6 @@ This does not intend to be a full blown engine and tries to keep all the compone
   inputs.src-gamelib-master.ref   = "refs/heads/master";
   inputs.src-gamelib-master.owner = "PMunch";
   inputs.src-gamelib-master.repo  = "SDLGamelib";
-  inputs.src-gamelib-master.dir   = "";
   inputs.src-gamelib-master.type  = "github";
   
   inputs."sdl2".owner = "nim-nix-pkgs";
