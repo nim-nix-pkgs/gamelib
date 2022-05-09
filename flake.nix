@@ -7,14 +7,6 @@
   inputs.flakeNimbleLib.type  = "github";
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
-  inputs."gamelib-master".dir   = "master";
-  inputs."gamelib-master".owner = "nim-nix-pkgs";
-  inputs."gamelib-master".ref   = "master";
-  inputs."gamelib-master".repo  = "gamelib";
-  inputs."gamelib-master".type  = "github";
-  inputs."gamelib-master".inputs.nixpkgs.follows = "nixpkgs";
-  inputs."gamelib-master".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
-  
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@inputs:
   let 
     lib  = flakeNimbleLib.lib;
