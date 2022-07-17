@@ -34,11 +34,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1657153744,
-        "narHash": "sha256-zDdo2f8U4iptrmq5IjtlnFf5kLfOSJDTEoIinqzsEhw=",
+        "lastModified": 1658018801,
+        "narHash": "sha256-JKCrK6FoNOQxB6fGQE0ByVU0+o167WYL1YSPNzhpoOo=",
         "owner": "nim-nix-pkgs",
         "repo": "gamelib",
-        "rev": "df00c2dacdcef302237e921b2c9740e8d73dfe1e",
+        "rev": "1e2ce270ab22a5998431d80adce5c8a19112834f",
         "type": "github"
       },
       "original": {
